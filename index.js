@@ -3,8 +3,8 @@ var customerName = "bob"
 console.log(customerName)
 
 function upperCaseCustomerName(){
-    customerName 
-    return customerName.toUpperCase()
+    customerName = customerName.toUpperCase()
+    return customerName
 }
 console.log(upperCaseCustomerName())
 
